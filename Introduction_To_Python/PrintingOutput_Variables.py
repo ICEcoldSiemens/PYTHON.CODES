@@ -1,12 +1,14 @@
 # As a dynamically typed programming language, there is no need to manually assign the data type
 # Additionally, no need to end statements with a semicolon.
 
-# Variables -> containers which stores values
-age = 20
-money = 0.00
-first_name = "Somto"
-last_name = "Ezeoke"
-isReal = False
+# Variables -> containers which stores values. We can perform multiple assignments on a line
+age, money, first_name, last_name, isReal = 20, 0.00, "Somto", "Ezeoke", False
+
+# We can commit multiple assignments of variables of the same value on the same line
+cookies = pizza = donuts = 10
+
+# We can manipulate strings to multiple with integers
+print(cookies*3)
 
 # Prints the data type of the variable -> in this case, it is a string
 print(type(first_name))
